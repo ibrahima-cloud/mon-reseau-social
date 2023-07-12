@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+  padding:0;
+  margin:0;
+}
+p,h3, h2,h4,h5,h1,h6 a, ul, li{
+	color: #EFFBFF;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 25px;
+}
+p{
+	font-size: 20px;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color:#729179;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.mn,
+.navbar ul li a:hover{
+	background: #2F332E;
+	border-radius: 2px;
+}
+ul{
+	margin: 0;
+}
+
+.bloc{
+	width: 100%;
+	background-color: #2F574D;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+.underblock{
+	height: 500px;
+	width: 30%;
+}
+.bloc1{
+	padding-top: 5em;
+}
+.bloc3{
+	background-color: #729179;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.left1{
+	background-color: #729179;
+	padding-left: 10%;
+}
+.right1{
+	background-color: #2F574D;
+}
+.centre{
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+}
+.centre1{
+	background-color: #2F574D;
+	padding-left: 10%;
+}
+.centre1 .text{
+	text-align: right;
+}
+.left2, .rigth2{
+	background-color: #2F574D;
+}
+.centre2{
+	background-color: #729179;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.centre3{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	background-color: #2F332E;
+}
+#footer{
+	background-color: #2F332E;
+	margin: 0;
+	padding-top: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.divider{
+	height: 1px;
+	width: 100%;
+	background-color: #6B979C;
+	border-radius: 0.1px;
+}
+form, textarea, form, input{
+	padding: 0;
+	width: 100%;
+	margin-top: 2em;
+}
+textarea{
+	height: 10em;
+	width: 40em;
+}
+input{
+	height: 3em;
+	width: 40em;
